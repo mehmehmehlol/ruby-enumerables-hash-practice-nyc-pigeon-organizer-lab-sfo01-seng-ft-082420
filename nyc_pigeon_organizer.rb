@@ -6,8 +6,9 @@ def nyc_pigeon_organizer(data)
     # binding.pry
     value.each do |inner_key, names|
       names.each do |name|
-        name << final_array
         binding.pry
+        name << final_array
+        
       end
     end
     final_array
